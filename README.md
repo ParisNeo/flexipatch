@@ -54,7 +54,7 @@ from flexipatch import RobustPatcher
 
 # --- Configuration ---
 # You can get a service key from your Lollms server instance
-LOLLMS_HOST = "http://localhost:9600" 
+LOLLMS_HOST = "http://localhost:9642" 
 LOLLMS_KEY = "YOUR_LOLLMS_SERVICE_KEY" 
 FILE_TO_EDIT = Path("my_script.py")
 

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flexipatch"
+version = "0.1.0"
+authors = [
+  { name="ParisNeo", email="contact@parisneo.ai" },
+]
+description = "The forgiving patch tool for AI-powered coding."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+keywords = ["patch", "diff", "llm", "ai", "refactor", "robust"]
+
+[project.urls]
+Homepage = "https://github.com/ParisNeo/flexipatch"
+"Bug Tracker" = "https://github.com/ParisNeo/flexipatch/issues"
